@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="en">
     <head>
+    	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125327801-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125327801-1');
+</script>
+
+
         <meta charset="utf-8">
         <title>ConnectBike. Bike Share for all</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,12 +46,12 @@
                                     </li>
                                     <li>
                                         <a href="https://www.linkedin.com/connectbike">
-                                            <i class="fab fa-facebook fa-2x"></i>
+                                            <i class="fab fa-linkedin fa-2x"></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://www.facebook.com/connectbike">
-                                            <i class="fab fa-linkedin fa-2x"></i>
+                                            <i class="fab fa-facebook fa-2x"></i>
                                         </a>
                                     </li>
                                     <li>
@@ -113,13 +124,13 @@
                 <ul class="slides">
                     <li class="imagebg" data-overlay="4">
                         <div class="background-image-holder background--top">
-                            <img alt="background" src="images/fiets 1.png" />
+                            <img alt="background" src="images/fiets/right.jpg" />
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">
                                 <div class="col-md-12">
                                     <h1>
-                                        <p class="type--bold type--uppercase">bike share run by you</p>
+                                        <p class="type--bold type--uppercase color--primary">bike share run by you</p>
                                     </h1>
                                     <ul class="list-inline list--hover">
                                         <li>
@@ -141,13 +152,13 @@
                     </li>
                     <li class="imagebg" data-overlay="4">
                         <div class="background-image-holder background--top">
-                            <img alt="background" src="images/fiets 3.png" />
+                            <img alt="background" src="images/fiets/left.jpg" />
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">
                                 <div class="col-md-12">
                                     <h1>
-                                       <p class="type--bold type--uppercase">Lock-to infrastructure</p>
+                                       <p class="type--bold type--uppercase color--primary">Lock-to infrastructure</p>
                                     </h1>
                                     
                                     <ul class="list-inline list--hover">
@@ -174,12 +185,12 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <h1>
-                                       <p class="type--bold type--uppercase"> Secured by</p>
+                                       <p class="type--bold type--uppercase color--primary"> Secured by</p>
                                     </h1>
                                     <ul class="list-inline list--hover">
                                         <li>
-                                            <a class="list--hover btn bg--dark" href="https://www.mobilock.nl" target="_blank">
-                                                        <img  alt="Mobilock" src="images/Mobilock.png" />
+                                            <a class="list--hover btn bg--primary" href="https://www.mobilock.nl" target="_blank">
+                                                        <img  alt="Mobilock" src="images/MobilockDark.png" />
                                             </a>
                                         </li>
                                     </ul>
@@ -192,16 +203,19 @@
                 </ul>
             </section>
             
-            <section class="switchable switchable--switch feature-large dark unpad--bottom border--bottom">
+            <section class="switchable switchable--switch feature-large dark unpad--bottom border--bottom bg--secondary">
                 <div class="container">
                     <div class="row justify-content-around">
-                        <div class="col-md-6">
+                         <div class="feature col-lg-4">
+                            <img alt="ios" src="images/app/london.png" class="border--round image--lg image--md image--sm image--xs" />
+                        </div>
+                        <div class="col-md-4 ">
                         	<span class="h1 inline-block">Bike share service for</span><br>
                             <span class="h1 inline-block typed-text typed-text--cursor color--primary" data-typed-strings="cities., transit operators., universities., employees.">anyone.</span>
 
                         </div>
-                        <div class="col-md-6 col-lg-4 col-12 text-center">
-                            <img alt="Software" src="images/device1.png" />
+                        <div class="feature col-md-4 ">
+                            <img alt="android" src="images/app/budapest.png" class="border--round image--lg image--md image--sm image--xs" />
                         </div>
                     </div>
                     <!--end of row-->
@@ -225,15 +239,20 @@
            <section class="bg--secondary">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-8">
-                        <h2>What can you do with our software?</h2>
+                    
+                    <div class=" col-lg-6 pos-vertical-center">
+                        <h1>
+	                       <p class="type--bold type--uppercase color--primary">How it works</p>
+	                    </h1>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-4">
                         <div class="feature">
-                            <img alt="Image" src="images/reserve.png" class="border--round" />
+                            <img alt="Image" src="images/app/reserve.png" class="border--round image--lg image--md image--sm image--xs" />
+                            <h2>One</h2>
+                            <hr class="short" />
                             <h4>Reserve a bike</h4>
                             <p>
                                 Find bicycles at virtual hubs and reserve even before you are in the neighbourhood. 
@@ -242,7 +261,9 @@
                     </div>
                     <div class="col-md-4">
                         <div class="feature">
-                            <img alt="Image" src="images/unlock.png" class="border--round" />
+                            <img alt="Image" src="images/app/unlock.png"  class="border--round image--lg image--md image--sm image--xs" />
+                            <h2>Two</h2>
+                            <hr class="short" />
                             <h4>Unlock and ride</h4>
                             <p>
                                 Use your smartphone's bluetooth connection to connect and unlock the chained wheel-lock.
@@ -250,8 +271,10 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="feature">
-                            <img alt="Image" src="images/locked.png" class="border--round" />
+                        <div class="feature image--lg image-md image-sm image--xs">
+                            <img alt="Image" src="images/fiets/lock.png" class="border--round image--lg image--md image--sm image--xs" />
+                            <h2>Three</h2>
+                            <hr class="short" />
                             <h4>Lock and Return</h4>
                             <p>
                                 Lock your bike to infrastructure during your rental and return to a designated virtual hub when rental period ends.
@@ -264,27 +287,156 @@
             <!--end of container-->
         </section>
 
-
-
-            <section class="cover height-50 imagebg ">
-				<div class="background-image-holder">
-					<img alt="background" src="images/logoA4.png" />
-				</div>
-			</section>
-		
-            <section class="imageblock switchable feature-large bg--dark">
-                <div class="imageblock__content col-lg-4 col-md-3 pos-right">
-                    <div class="background-image-holder">
-                        <img alt="image" src="images/fiets/seat.jpg" />
+ 
+	        
+	        <section class="feature-large switchable">
+	                <div class="container">
+	                    <div class="row justify-content-between">
+	                        <div class="col-lg-6 col-md-6">
+	                            <img alt="Image" class="border--round image--lg image--md image--sm image--xs" src="images/fiets/seatsm.jpg" />
+	                        </div>
+	                        <div class="col-lg-5 col-md-6">
+	                            <div style="display: table; height: 400px; overflow: hidden;">
+								  <div style="display: table-cell; vertical-align: middle;">
+	                                <h2>Easy height adjustment</h2>
+	                                <h5>From 150cm (5") to 185cm (6"1') - you are on for a treat</h5>
+	                               </div>
+	                            </div>
+	                            
+	                        </div>
+	                    </div>
+	                    <!--end of row-->
+	                </div>
+	                <!--end of container-->
+            </section>
+            <section class="feature-large switchable  bg--secondary">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-5 col-md-6">
+	                            <div style="display: table; height: 400px; overflow: hidden;">
+								  <div style="display: table-cell; vertical-align: middle;">
+	                                <h2>Unlock potential </h2>
+	                                <h5>Lock our bikes with one simple move to any existing infrastructure. Designed for safety and to keep pathways clean from clutter.</h5>
+	                               </div>
+	                            </div>
+	                            
+	                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <img alt="Image" class="border--round image--lg image--md image--sm image--xs" src="images/fiets/locked.png" />
+                        </div>
+                        
                     </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="feature-large switchable ">
+	                <div class="container ">
+	                    <div class="row justify-content-between">
+	                        <div class="col-lg-6 col-md-6">
+	                            <img alt="Image" class="border--round image--lg image--md image--sm image--xs" src="images/ads/heineken.png" />
+	                        </div>
+	                        <div class="col-md-5 col-md-6 text-left text-center-xs">
+		                        <div style="display: table; height: 400px; overflow: hidden;">
+								  <div style="display: table-cell; vertical-align: middle;">
+								        <h2>Add colour or advertisement</h2>
+		                                <h5>Advertise your local merchant to reduce your costs!</h5>
+		                          </div>
+								</div>
+							</div>
+	                        
+	                    </div>
+	                   
+	                </div>
+	         
+	        </section>
+             
+            <section class="imagebg feature-large-7 switchable">
+                <div class="background-image-holder">
+                    <img alt="background" src="images/fiets/right.jpg" />
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-7 col-md-6">
-                            <h2>High quality German design bicycle</h2>
-                            <p class="lead">
-                                eflow Europe spent many years developing the lightest, most comfortable and sturdiest shared bicycle on the market. 
-                            </p>
+                        <div class="col-md-7 col-lg-5">
+                            <div class="pricing pricing-1 bg--white boxed boxed--lg boxed--border">
+                                <h3>ORDER NOW</h3>
+                                <span class="h2">
+                                    <strong>€54.99</strong>
+                                </span>
+                                <span class="type--fine-print">Per Month, Exc. VAT</span>
+                                <hr>
+                                <ul>
+                                    <li>
+                                        <span class="checkmark bg--primary"></span>
+                                        <span>Bicycle</span>
+                                    </li>
+                                    <li>
+                                        <span class="checkmark bg--primary"></span>
+                                        <span>Front-End App</span>
+                                    </li>
+                                    <li>
+                                        <span class="checkmark bg--primary"></span>
+                                        <span>Management Software</span>
+                                    </li>
+                                    <li>
+                                        <span class="checkmark bg--primary"></span>
+                                        <span>Leasing</span>
+                                    </li>
+                                    <li>
+                                        <span class="checkmark bg--primary"></span>
+                                        <span>Insurance</span>
+                                    </li>
+                                </ul>
+                                <div class="modal-instance">
+	                                <a class="btn btn--primary modal-trigger type--uppercase" href="#">
+	                                    <span class="btn__text button-primary">
+	                                        Order now
+	                                    </span>
+	                                </a>
+	                                <div class="modal-container">
+	                                    <div class="modal-content">
+	                                        <section class="imageblock feature-large bg--site border--round ">
+	                                            <div class="imageblock__content col-lg-5 col-md-4 pos-left">
+	                                                <div class="background-image-holder" >
+	                                                    <img alt="image"  src="images/lamp.png" />
+	                                                </div>
+	                                            </div>
+	                                            <div class="container">
+	                                                <div class="row justify-content-end">
+	                                                    <div class="col-lg-7 col-md-8">
+	                                                        <div class="row justify-content-center">
+	                                                            <form class="row">
+									                                <div class="col-md-12">
+									                                    <label>Your Name:</label>
+									                                    <input type="text" name="name" placeholder="First / Last Name" class="validate-required" />
+									                                </div>
+									                                <div class="col-md-12">
+									                                    <label>Email Address:</label>
+									                                    <input type="email" name="email" placeholder="you@something.com" class="validate-required" />
+									                                </div>
+									                                <div class="col-md-12">
+									                                    <label>Message:</label>
+									                                    <textarea name="message" placeholder="Message" class="validate-required" rows="4"></textarea>
+									                                </div>
+									                                <div class="col-md-12">
+									                                    <button type="submit" class="btn btn--primary">Send Form</button>
+									                                </div>
+									                            </form>
+	                                                            <!--end of col-->
+	                                                        </div>
+	                                                        <!--end of row-->
+	                                                    </div>
+	                                                </div>
+	                                                <!--end of row-->
+	                                            </div>
+	                                            <!--end of container-->
+	                                        </section>
+	                                    </div>
+	                                </div>
+                               	</div>
+                            </div>
+
+
                             
                         </div>
                     </div>
@@ -293,7 +445,7 @@
                 <!--end of container-->
             </section>
        
-            <footer class="text-center-xs space--xs ">
+            <footer class="text-center-xs space--xs bg--dark ">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center text-center-xs">
@@ -305,12 +457,12 @@
                                 </li>
                                 <li>
                                     <a href="https://www.linkedin.com/connectbike">
-                                        <i class="fab fa-facebook fa-2x"></i>
+                                        <i class="fab fa-linkedin fa-2x"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://www.facebook.com/connectbike">
-                                        <i class="fab fa-linkedin fa-2x"></i>
+                                        <i class="fab fa-facebook fa-2x"></i>
                                     </a>
                                 </li>
                                 <li>

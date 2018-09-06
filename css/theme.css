@@ -73,7 +73,7 @@ body {
   line-height: 1.85714286em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Lucida Grande', sans-serif;
   color: #666666;
   font-weight: 400;
 }
@@ -89,7 +89,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Lucida Grande', sans-serif;
   color: #252525;
   font-weight: 300;
   font-variant-ligatures: common-ligatures;
@@ -579,7 +579,7 @@ img {
 [data-overlay]:before {
   position: absolute;
   content: '';
-  background: #252525;
+  background: ;
   width: 100%;
   height: 100%;
   top: 0;
@@ -820,6 +820,8 @@ div[data-overlay] ul {
   -webkit-transition: none !important;
   -moz-transition: none !important;
 }
+
+
 .image--xxs {
   max-height: 1.85714286em;
 }
@@ -832,9 +834,14 @@ div[data-overlay] ul {
 .image--md {
   max-height: 7.42857143em;
 }
+.image--lg {
+  max-height: 25.42857143em;
+
+
+}
 /**! 06. Buttons **/
 .btn {
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Lucida Grande', sans-serif;
   transition: 0.1s linear;
   -webkit-transition: 0.1s linear;
   -moz-transition: 0.1s linear;
@@ -963,7 +970,7 @@ div[data-overlay] ul {
   color: #fff;
 }
 .btn--primary:hover {
-  background: #609de6;
+  background: #AC311C;
 }
 .btn--primary:active {
   background: #3483de;
@@ -2732,7 +2739,7 @@ a {
   color: #F2593F;
 }
 .color--primary-1 {
-  color: #31639c !important;
+  color: #252525 !important;
 }
 .color--primary-2 {
   color: #465773 !important;
@@ -2773,7 +2780,7 @@ a {
   background: #ffffff;
 }
 .bg--secondary {
-  background: #CAC8C9;
+  background: #fafafa;
 }
 .bg--primary {
   background: #F2593F;
@@ -3020,7 +3027,7 @@ form[action*='createsend.com'] p > label:first-child {
   margin-bottom: 0.92857143em;
 }
 form[action*='list-manage.com'] h2 {
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Lucida Grande', sans-serif;
   color: #252525;
   font-weight: 300;
   font-variant-ligatures: common-ligatures;
