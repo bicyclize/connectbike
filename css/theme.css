@@ -17,7 +17,7 @@
 /**! 15. Radials **/
 /**! 16. Tabs **/
 /**! 17. Boxes **/
-/**! 18. Sliders Flickity **/
+/**! 18. Sliders Flickity **/§
 /**! 19. Hover Elements **/
 /**! 20. Masonry **/
 /**! 21. Modals **/
@@ -315,6 +315,7 @@ body {
 @media all and (max-width: 990px) {
   .text-center-md {
     text-align: center;
+
   }
   .text-left-md {
     text-align: left;
@@ -832,7 +833,7 @@ div[data-overlay] ul {
   max-height: 5.57142857em;
 }
 .image--md {
-  max-height: 7.42857143em;
+  max-height: 17.42857143em;
 }
 .image--lg {
   max-height: 25.42857143em;
