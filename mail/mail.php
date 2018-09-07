@@ -24,7 +24,7 @@ $recipientEmail             = 'info@connectbike.com'; // REQUIRED value.
 $recipientName              = 'John Doe';             // REQUIRED value.
 
 // Email details            - Change these to suit your website needs
-$emailSubject               = 'A message from Your Website'; // REQUIRED value. Subject of the email that the recipient will see
+$emailSubject               = 'Website interest'; // REQUIRED value. Subject of the email that the recipient will see
 $websiteName                = 'Your Website';                // REQUIRED value. This is used when a name or email is not collected from the website form
 
 $timeZone                   = 'Netherlands';         // OPTIONAL, but some servers require this to be set. 
@@ -35,8 +35,8 @@ $recaptchaSecretKey         = '18cb38cwucb73vo708r6vgshjcbwbfbcvueucbwg';
 $recaptchaErrorMessage      = 'There was a problem verifying the Google reCaptcha.  Please try again.';
 
 // Confirmation Message
-$sendConfirmationToUser     = false; // leave false to disable confirmation, or use path to an html email template.
-$confirmationSubject        = "Thanks for Contacting Company Name"; // The subject of the confirmation email
+$sendConfirmationToUser     = mailconfirm.html; // leave false to disable confirmation, or use path to an html email template.
+$confirmationSubject        = "Thanks for Contacting Connectbike"; // The subject of the confirmation email
 $confirmationFromName       = "Company Name"; // Used in the "from" field of the email.
 $userEmailField             = "email";
 $defaultUserName            = "User"; // Used if the form does not include a "name" field.
