@@ -10,8 +10,15 @@
 
   gtag('config', 'UA-125327801-1');
 </script>
-
-
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125518222-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'UA-125518222-1');
+</script>
         <meta charset="utf-8">
         <title>ConnectBike. Bike share from You</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,27 +37,48 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     </head>
     <body class=" ">
+        <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="995416480658040"
+  logged_in_greeting="Hi!"
+  logged_out_greeting="Let us know if you have any questions!"
+  greeting_dialog_display="fade"
+  greeting_dialog_delay=5
+  >
+</div>
         <a id="start"></a>
+
         <div class="nav-container">
-            <nav id="menu1" class="bar bar--sm bar-2 hidden-lg hidden-md bar--absolute bar--transparent">
+            <nav id="menu1" class="bar bg--white ">
                 <div class="container">
                     <div class="row">
                         
-                        <div class="col-md-6 text-center text-center-xs text-right-sm hidden-xs">
+                        <div class="col-md-6 text-left hidden-xs">
                             
-                                <ul class="social-list list-inline list--hover">
+                                <ul class="social-list list-inline pos-vertical-center">
                                     <li>
                                         <a href="https://www.medium.com/connectbike" target="_blank">
                                             <i class="fab fa-medium fa-2x"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/connectbike" target="_blank">
-                                            <i class="fab fa-linkedin fa-2x"></i>
+                                        <a href="https://www.twitter.com/connectbikeNL" target="_blank">
+                                            <i class="fab fa-twitter fa-2x"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/connectbike" target="_blank">
+                                        <a href="https://www.facebook.com/connectbikeNL" target="_blank">
                                             <i class="fab fa-facebook fa-2x"></i>
                                         </a>
                                     </li>
@@ -61,53 +89,43 @@
                                     </li>
                                 </ul>
                         </div>
-                        <div class="col-md-6">
-                            <div class="bar__module">
-                                <a href="index.html">
-                                    <img class="logo logo-light" alt="logo"  src="images/logoTitle.png" />
-                                </a>
-                            </div>
-                            <!--end module-->
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </nav>
-            <!--end bar-->
-            <nav id="menu2" class="bar bar--sm bar-2 hidden-xs hidden-sm bar--absolute bar--transparent">
-                <div class="container">
-                    <div class="row">
-                        
-                        <div class="col-md-4 text-center text-center-xs text-right-sm hidden-sm">
+                         <div class="col-md-6 text-center visible-xs">
                             
-	                            <ul class="social-list list-inline list--hover">
-	                                 <li>
+                                <ul class="social-list list-inline pos-vertical-center">
+                                    <li>
                                         <a href="https://www.medium.com/connectbike" target="_blank">
-                                            <i class="fab fa-medium fa-2x"></i>
+                                            <i class="fab fa-medium "></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/connectbike" target="_blank">
-                                            <i class="fab fa-linkedin fa-2x"></i>
+                                        <a href="https://www.twitter.com/connectbikeNL" target="_blank">
+                                            <i class="fab fa-twitter fa-2x"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/connectbike" target="_blank">
+                                        <a href="https://www.facebook.com/connectbikeNL" target="_blank">
                                             <i class="fab fa-facebook fa-2x"></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/connectbike" target="_blank">
-                                            <i class="fab fa-instagram fa-2x"></i>
+                                            <i class="fab fa-instagram "></i>
                                         </a>
                                     </li>
-	                            </ul>
-	                    </div>
-                        <div class="col-md-4 hidden-xs">
+                                </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-6 text-right hidden-xs">
                             <div class="bar__module">
-                                <a href="index.html">
-                                    <img class="logo logo-light" alt="logo"  src="images/logoTitle.png" />
+                                <a >
+                                    <img class="logo" alt="logo"  src="images/logo.png" />
+                                </a>
+                            </div>
+                            <!--end module-->
+                        </div>
+                        <div class="col-md-6 text-center-xs visible-xs">
+                            <div class="bar__module">
+                                <a >
+                                    <img class="logo " alt="logo"  src="images/logo.png" />
                                 </a>
                             </div>
                             <!--end module-->
@@ -118,9 +136,10 @@
                 <!--end of container-->
             </nav>
             <!--end bar-->
+          
         </div>
         <div class="main-container">
-            <section class="cover height-100 imagebg text-center slider slider--ken-burns" data-arrows="true" data-paging="true">
+    	    <section class="cover height-80 imagebg text-center slider" data-arrows="true" data-paging="true" data-timing=5000>
                 <ul class="slides">
                     <li class="imagebg" data-overlay="4">
                         <div class="background-image-holder background--top">
@@ -128,18 +147,18 @@
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-8">
                                     <h1>
-                                        <p class="type--bold type--uppercase color--primary">unlock the potential</p>
+                                        <p class="type--bold type--uppercase color--primary border--round bg--white ">unlock the potential</p>
                                     </h1>
-                                    <ul class="list-inline list--hover">
-                                        <li>
-                                            <a class="btn btn--transparent" href="https://www.apple.com" target="_blank">
-                                            <img alt="Apple" src="images/app-store.png"/>
+                                    <ul class="list-inline ">
+                                        <!--li>
+                                            <a class="btn btn--transparent btn--xs" href="#" target="_blank">
+                                            <img alt="Apple" src="images/app-store.png" height="40" />
                                        
                                              
                                             </a>
-                                        </li>
+                                        </li-->
                                         
                                     </ul>
                                     
@@ -156,19 +175,17 @@
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-6">
                                     <h1>
-                                       <p class="type--bold type--uppercase color--primary">complete bike share solution</p>
+                                       <p class="type--bold type--uppercase color--primary border--round bg--white ">complete bike share solution</p>
                                     </h1>
                                     
-                                    <ul class="list-inline list--hover">
-                                        <li>
-                                            
-                                       
-                                             <a class=" btn--xs btn--transparent" href="https://www.google.com" target="_blank">
-                                                <img  alt="Google" src="images/google-play.png" />
+                                    <ul class="list-inline ">
+                                        <!--li>
+                                            <a class=" btn--xs btn--transparent" href="#" target="_blank">
+                                                <img  alt="Google" src="images/google-play.png" height="40" />
                                             </a>
-                                        </li>
+                                        </li-->
                                         
                                     </ul>
                                 </div>
@@ -183,14 +200,14 @@
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-4">
                                     <h1>
-                                       <p class="type--bold type--uppercase color--primary"> Secured by</p>
+                                       <p class="type--bold type--uppercase color--primary border--round bg--white "> Secured by</p>
                                     </h1>
-                                    <ul class="list-inline list--hover">
+                                    <ul class="list-inline ">
                                         <li>
-                                            <a class="list--hover btn bg--primary" href="https://www.mobilock.nl" target="_blank">
-                                                        <img  alt="Mobilock" src="images/MobilockDark.png" />
+                                            <a class=" btn btn--white" href="https://www.mobilock.nl/en" target="_blank">
+                                                        <img  alt="Mobilock" src="images/Mobilock.png" height="40" />
                                             </a>
                                         </li>
                                     </ul>
@@ -201,7 +218,24 @@
                         <!--end of container-->
                     </li>
                 </ul>
-            </section>
+				</div><!--end of notification-->
+          	</section>
+
+          	<div class="notification pos-left pos-bottom" data-animation="from-bottom" data-autoshow="7000">
+                <div class="text-center boxed border--round ">
+                    <div class="text-block type--uppercase">
+                        <h4>Meet us in paris at </h4>
+                        <div class="container">
+                           <img alt="autonomy" href="https://www.autonomy.paris/en/" target="_blank" src="images/autonomy.png" class="border--round image--xs" />
+                        </div>
+                        <a>in</a>
+
+                            <span class="h6 countdown" data-date="10/18/2018" data-date-fallback="Timer Done"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             
 
 	        <section class="bg--secondary">
@@ -232,6 +266,7 @@
                             </div>
                             <!--end feature-->
                         </div>
+                       
                     </div>
                     <!--end of row-->
                 </div>
@@ -252,6 +287,7 @@
                 </div>
                 <!--end of container-->
             </section>
+
            <section class="text-center bg--secondary">
             <div class="container">
                 <div class="row justify-content-center">
@@ -267,7 +303,7 @@
                     <div class="col-md-4 ">
                         <div class="feature feature-3 boxed boxed--lg bg--secondary">
                             <img alt="Image" src="images/app/reserve.png" class="border--round image--lg image--md image--sm image--xs" />
-                            <h2>One</h2>
+                            <h2>1</h2>
                             <hr class="short" />
                             <h4>Reserve a bike</h4>
                             <p>
@@ -278,7 +314,7 @@
                     <div class="col-md-4">
                         <div class="feature feature-3 boxed boxed--lg bg--secondary">
                             <img alt="Image" src="images/app/unlock.png"  class="border--round image--lg image--md image--sm image--xs" />
-                            <h2>Two</h2>
+                            <h2>2</h2>
                             <hr class="short" />
                             <h4>Unlock and ride</h4>
                             <p>
@@ -288,12 +324,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="feature feature-3 boxed boxed--lg bg--secondary">
-                            <img alt="Image" src="images/fiets/lock.png" class="border--round image--lg image--md image--sm image--xs" />
-                            <h2>Three</h2>
+                            <img alt="Image" src="images/fiets/locked2.png" class="border--round image--lg image--md image--sm image--xs" />
+                            <h2>3</h2>
                             <hr class="short" />
                             <h4>Lock and Return</h4>
                             <p>
-                                Just slide the pin through the wheel lock. Job done!
+                                Just slide the pin through the wheel-lock and confirm return in the app!
                             </p>
                         </div>
                     </div>
@@ -306,13 +342,13 @@
             <div class="container">
                 <div class="row justify-content-around">
                     <div class="col-md-6 text-center">
-                        <img alt="Image" class="border--round box-shadow-wide bg--white image--md" src="images/fiets/seat.jpg" />
+                        <img alt="Image" class="border--round  image--lg" src="images/app/london.png" />
                     </div>
                     <div class="col-md-6 col-lg-5">
                         <div class="switchable__text">
-                            <h2>Easy height adjustment</h2>
+                            <h2>Geohub based rental</h2>
                             <p class="lead">
-                                From 150cm (5") to 185cm (6"1') - you are on for a treat
+                                Pick-up and return bikes to designated geo-locations. Eliminate street clutter and ensure user reliablity. Facilitate A-B or A-C-A trips.
                             </p>
                         </div>
                     </div>
@@ -326,9 +362,9 @@
                 <div class="row justify-content-around">
                     <div class="col-md-6">
                         <div class="switchable__text">
-                            <h2>"Dockless dock-to"</h2>
+                            <h2>Dockless "lock-to"</h2>
                             <p class="lead">
-                                Lock our bikes with one simple move to any existing infrastructure. Designed for safety and to keep pathways clean from clutter.
+                                Lock our bikes with one simple move to any existing infrastructure. Increased bike safety and pavement access.
                             </p>
                         </div>
                     </div>
@@ -341,13 +377,13 @@
             </div>
             <!--end of container-->
         </section>
-        <section class="switchable feature-large bg--primary">
+        <section class="switchable feature-large bg--primary ">
             <div class="container">
                 <div class="row justify-content-around">
-                    <div class="col-md-6 text-center">
-                        <img alt="Image" class="border--round box-shadow-wide bg--secondary image--md" src="images/ads/heineken.png" />
+                    <div class="col-md-4 text-center">
+                        <img alt="Image" class="border--round box-shadow-wide bg--secondary" src="images/ads/beer.png" />
                     </div>
-                    <div class="col-md-6 col-lg-5">
+                    <div class="col-md-8 col-lg-6">
                         <div class="switchable__text">
                             <h2>Add colour or advertisement</h2>
                             <p class="lead">
@@ -371,7 +407,7 @@
                         <div class="pricing pricing-1 bg--white boxed boxed--lg boxed--border">
                             <h3>ORDER NOW</h3>
                             <span class="h2">
-                                <strong>€54.99</strong>
+                                <strong>&euro;54.99</strong>
                             </span>
                             <span class="type--fine-print">Per Month, Exc. VAT</span>
                             <hr>
@@ -402,51 +438,12 @@
                                 </li>
                             </ul>
                             <div class="modal-instance">
-                                <a class="btn btn--lg btn--primary modal-trigger type--uppercase" href="#">
+                                <a class="btn btn--lg btn--primary type--uppercase" href="mailto:info@connectbike.com?subject=Website enquiry">
                                     <h3 class="btn__text button-primary">
-                                        Order now
+                                        Contact us
                                     </h3>
                                 </a>
-                                <div class="modal-container">
-                                    <div class="modal-content">
-                                        <section class="imageblock feature-large bg--site border--round ">
-                                            <div class="imageblock__content col-lg-5 col-md-4 pos-left">
-                                                <div class="background-image-holder" >
-                                                    <img alt="image"  src="images/lamp.png" />
-                                                </div>
-                                            </div>
-                                            <div class="container">
-                                                <div class="row justify-content-end">
-                                                    <div class="col-lg-7 col-md-8">
-                                                        <div class="row justify-content-center">
-                                                            <form class="row">
-								                                <div class="col-md-12">
-								                                    <label>Your Name:</label>
-								                                    <input type="text" name="name" placeholder="First / Last Name" class="validate-required" />
-								                                </div>
-								                                <div class="col-md-12">
-								                                    <label>Email Address:</label>
-								                                    <input type="email" name="email" placeholder="you@email.com" class="validate-required" />
-								                                </div>
-								                                <div class="col-md-12">
-								                                    <label>Message:</label>
-								                                    <textarea name="message" placeholder="Please add the number of bikes, location and desired delivery date." class="validate-required" rows="4"></textarea>
-								                                </div>
-								                                <div class="col-md-12">
-								                                    <button type="submit" class="btn btn--primary">Send request</button>
-								                                </div>
-								                            </form>
-                                                            <!--end of col-->
-                                                        </div>
-                                                        <!--end of row-->
-                                                    </div>
-                                                </div>
-                                                <!--end of row-->
-                                            </div>
-                                            <!--end of container-->
-                                        </section>
-                                    </div>
-                                </div>
+                                
                            	</div>
                         </div>
 
@@ -470,12 +467,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/connectbike" target="_blank">
-                                    <i class="fab fa-linkedin fa-2x"></i>
+                                <a href="https://www.twitter.com/connectbikeNL" target="_blank">
+                                    <i class="fab fa-twitter fa-2x"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/connectbike" target="_blank">
+                                <a href="https://www.facebook.com/connectbikeNL" target="_blank">
                                     <i class="fab fa-facebook fa-2x"></i>
                                 </a>
                             </li>
@@ -496,7 +493,7 @@
                         <a class="type--fine-print" href="https://mobilock.nl/algemene-voorwaarden">Legal</a>
                     </div>
                     <div class="col-md-5 text-right text-center-xs">
-                        <a class="type--fine-print" href="#">info@connectbike.com</a>
+                        <a class="type--fine-print" href="mailto:info@connectbike.com?subject=Website enquiry">info@connectbike.com</a>
                     </div>
                 </div>
                 <!--end of row-->
@@ -505,9 +502,7 @@
         </footer>
         </div>
         <!--<div class="loader"></div>-->
-        <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-            <i class="stack-interface stack-up-open-big"></i>
-        </a>
+        
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/flickity.min.js"></script>
         <script src="js/easypiechart.min.js"></script>
